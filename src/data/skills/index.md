@@ -1,5 +1,5 @@
 ---
 category: 'skills section'
 title: 'Skills'
-subtitle: 'Tecnologies & Tools'
+subtitle: 'Programming Tecnologies & Tools'
 ---

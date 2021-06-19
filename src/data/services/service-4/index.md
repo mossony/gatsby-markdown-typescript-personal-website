@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Digital Marketing'
-icon: 'bullhorn'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+title: 'Web Development(Currently learning)'
+icon: 'newspaper'
+description: 'Learning to use html, CSS, JavaScript, react, etc. to develop web pages. '
 ---

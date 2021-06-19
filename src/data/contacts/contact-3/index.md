@@ -1,6 +1,6 @@
 ---
 category: 'contact'
 title: 'Email'
-icon: 'paper-plane'
-content: 'greatgatsby@gmail.com'
+icon: 'envelope'
+content: 'mossony**@gmail.com'
 ---

@@ -9,11 +9,10 @@ import Testimonials from 'components/Testimonials';
 const IndexPage: React.FC = () => {
   return (
     <Layout>
-      <SEO title="About Me" />
+      <SEO title="Boyang Wan" />
       <HeroBanner />
       <Services />
       <hr />
-      <Testimonials />
     </Layout>
   );
 };

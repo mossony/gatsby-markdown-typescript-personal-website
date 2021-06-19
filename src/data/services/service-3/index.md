@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Copywrite'
-icon: 'edit'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+title: 'Database (Currently learning)'
+icon: 'database'
+description: 'Learning to use relational database management system such as MySQL, SQLite to store and make use of data. '
 ---

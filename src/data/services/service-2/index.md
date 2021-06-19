@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Graphic Design'
+title: 'Data Structures'
 icon: 'draw-polygon'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+description: 'Familiar with the implementation of multiple data structures and their complexity. Use various data structures and algorithms to solve practical problems.'
 ---

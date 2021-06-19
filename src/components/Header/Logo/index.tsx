@@ -14,7 +14,7 @@ const Logo: React.FC = () => {
           title
         }
       }
-      placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "profile.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 80) {
             ...GatsbyImageSharpFluid
@@ -32,7 +32,7 @@ const Logo: React.FC = () => {
       <Styled.Image>
         <Img fluid={logoImage} alt={logoTitle} />
       </Styled.Image>
-      <Styled.Text>{logoTitle}</Styled.Text>
+      <Styled.Text>Boyang Wan</Styled.Text>
     </Styled.Logo>
   );
 };

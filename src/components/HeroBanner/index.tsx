@@ -2,7 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import Banner from 'components/ui/Banner';
-
+import FormatHtml from 'components/utils/FormatHtml';
 import { SectionTitle } from 'helpers/definitions';
 
 interface SectionHeroBanner extends SectionTitle {
@@ -32,7 +32,7 @@ const HeroBanner: React.FC = () => {
     <Banner
       title={heroBanner.title}
       subtitle={heroBanner.subtitle}
-      content={heroBanner.content}
+      content={<FormatHtml content={heroBanner.content} />}
       linkTo={heroBanner.linkTo}
       linkText={heroBanner.linkText}
     />

@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Web Design'
+title: 'Software Design'
 icon: 'laptop-code'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+description: 'Use object-oriented and machine-oriented programming languages to design software. Familiar with different design patterns, version control, multiprocessing/multithreading, system programming, etc.'
 ---
