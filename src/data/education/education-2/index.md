@@ -12,4 +12,4 @@ CGPA: 3.98 <br>
 Credit earned: 11.0/20.0 <br>
 Awarded Mathematical and Computational Sciences Honour Roll 2019-2020 <br>
 Named a Dean's List Scholar for the 2021-2022 Fall-Winter Session. <br>
-
+Awarded Mathematical and Computational Sciences Honour Roll 2020-2021 <br>
