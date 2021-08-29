@@ -13,12 +13,13 @@ import {
   faDatabase,
   faNewspaper,
   faEnvelope,
-  faMobileAlt
+  faMobileAlt,
+  faBrain
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon, FontAwesomeIconProps } from '@fortawesome/react-fontawesome';
 
 /* add any additional icon to the library */
-library.add(fab, faLaptopCode, faDrawPolygon, faEdit, faEdit, faBullhorn, faMapMarkerAlt, faPhone, faPaperPlane, faDatabase, faNewspaper, faEnvelope, faMobileAlt);
+library.add(fab, faLaptopCode, faDrawPolygon, faEdit, faEdit, faBullhorn, faMapMarkerAlt, faPhone, faPaperPlane, faDatabase, faNewspaper, faEnvelope, faMobileAlt, faBrain);
 
 export type IconProps = FontAwesomeIconProps['icon'];
 
