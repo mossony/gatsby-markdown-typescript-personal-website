@@ -12,7 +12,7 @@ const Footer: React.FC = () => (
           GitHub
         </Styled.Link>
         <Styled.Link
-          href="https://www.facebook.com/boyang.wan.5"
+          href="../../pages/404.tsx"
           rel="noreferrer noopener"
           target="_blank"
         >
