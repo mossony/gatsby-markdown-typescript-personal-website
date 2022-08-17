@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Web Development(Currently learning)'
+title: 'Web Development'
 icon: 'newspaper'
-description: 'Learning to use html, CSS, JavaScript, react, etc. to develop web pages. '
+description: 'Learned to use html, CSS, JavaScript, react, etc. to develop web pages. '
 ---
