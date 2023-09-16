@@ -3,7 +3,7 @@ category: 'experiences'
 company: 'Intel of Canada'
 position: 'High Speed SerDes Post-Silicon Validation PEY'
 startDate: 'May 2022'
-endDate: 'Current'
+endDate: 'August 2023'
 ---
 
 Working as an PEY intern in the SerDes post-silicon team at Intel of Canada. </br>
