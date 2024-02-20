@@ -45,7 +45,7 @@ const Logo: React.FC = () => {
       <Styled.Image onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
         <Img fluid={logoImage} alt={logoTitle} />
       </Styled.Image>
-      {!isHovering && <Styled.Text>Boyang Wan</Styled.Text>}
+      {!isHovering && <Styled.Text>Boyang (Bob) Wan</Styled.Text>}
       {isHovering && <Styled.Text>This is my cat Wangcai</Styled.Text>}
     </Styled.Logo>
   );
