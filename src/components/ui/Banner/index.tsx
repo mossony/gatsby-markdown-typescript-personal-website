@@ -19,10 +19,12 @@ const Banner: React.FC<Props> = ({ title, subtitle, content, linkTo, linkText })
   <Styled.Banner>
     <Container section>
       <TitleSection title={title} subtitle={subtitle} />
-      <Styled.Content>{content}</Styled.Content>
-      <Link to={linkTo}>
-        <Button primary>{linkText}</Button>
-      </Link>
+      <div>
+        <Styled.Content>{content}</Styled.Content>
+        <Link to={linkTo}>
+          <Button primary>{linkText}</Button>
+        </Link>
+      </div>
     </Container>
   </Styled.Banner>
 );
