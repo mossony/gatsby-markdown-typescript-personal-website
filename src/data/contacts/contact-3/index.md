@@ -2,5 +2,5 @@
 category: 'contact'
 title: 'Email'
 icon: 'envelope'
-content: 'boyangwan1016@gmail.com'
+content: 'boyangwan1016 at gmail.com'
 ---
