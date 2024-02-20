@@ -5,7 +5,7 @@ subtitle: 'Computer Science - Information Security'
 content: >
   🧑‍🔧 Currently in the 4th year of university. <br/>
   💻 A computer scientist who loves engineering. <br/>
-  ₿ A Bitcoin hodler.
+  ₿ A Bitcoin hodler. <br/>
 linkTo: '/resume/'
 linkText: 'View My Profile'
 ---
