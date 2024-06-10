@@ -18,7 +18,7 @@ const Footer: React.FC = () => (
         >
           Facebook
         </Styled.Link> */}
-        <Styled.Link href="https://www.linkedin.com/in/boyang-wan-17b5851b9/" rel="noreferrer noopener" target="_blank">
+        <Styled.Link href="https://www.linkedin.com/in/bob-wan-17b5851b9/" rel="noreferrer noopener" target="_blank">
           LinkedIn
         </Styled.Link>
       </Styled.Links>
