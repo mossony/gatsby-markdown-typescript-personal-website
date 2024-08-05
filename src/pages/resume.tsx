@@ -12,7 +12,7 @@ const ResumePage: React.FC = () => (
     <Experience/>
     <Education />
     <hr />
-    <Skills />
+    {/* <Skills /> */}
   </Layout>
 );
 

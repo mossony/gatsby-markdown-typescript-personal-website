@@ -6,4 +6,4 @@ startDate: 'Sep 2017'
 endDate: 'Jun 2019'
 ---
 
-Completed high school diploma with impressive results.
+Completed high school diploma.

@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Machine Learning(Currently learning)'
+title: 'Machine Learning'
 icon: 'brain'
-description: 'Learning to use machine learning to solve practical problems. Currently using PyTorch.'
+description: 'Learned to use machine learning to solve practical problems. '
 ---
