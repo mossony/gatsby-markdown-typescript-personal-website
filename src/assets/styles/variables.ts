@@ -8,14 +8,14 @@ import { ObjectType } from 'helpers/definitions';
 export const colors: ObjectType = {
   white: '#ffffff',
   black: '#000000',
-  // gray
-  gray100: '#F7FAFC',
-  gray200: '#EDF2F7',
-  gray300: '#E2E8F0',
-  gray400: '#CBD5E0',
+  // Adjusted gray scale for dark mode
+  gray100: '#1A202C',
+  gray200: '#2D3748',
+  gray300: '#4A5568',
+  gray400: '#718096',
   gray500: '#A0AEC0',
-  gray600: '#718096',
-  gray700: '#4A5568',
-  gray800: '#2D3748',
-  gray900: '#1A202C'
+  gray600: '#CBD5E0',
+  gray700: '#E2E8F0',
+  gray800: '#EDF2F7',
+  gray900: '#F7FAFC'
 };
