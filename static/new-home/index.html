@@ -153,6 +153,71 @@ document.addEventListener('DOMContentLoaded', async function() {
       template = template.slice(0, i) + resourceScript + template.slice(i);
     }
 
+    // The exported design uses desktop-only inline styles. Add a responsive
+    // layer after those styles so the same document remains usable on phones.
+    const responsiveStyles = `<style id="mobile-responsive-overrides">
+      html, body { max-width: 100%; overflow-x: hidden; }
+      *, *::before, *::after { box-sizing: border-box; }
+
+      @media (max-width: 700px) {
+        nav { padding: 12px 20px !important; }
+        nav > a { font-size: 17px !important; white-space: nowrap; }
+        nav > div { gap: 0 !important; }
+        nav > div > a,
+        nav > div > sc-if { display: none !important; }
+        nav button span { width: 38px !important; }
+
+        #top { padding: 72px 20px 64px !important; }
+        #top h1 { font-size: clamp(48px, 16vw, 66px) !important; line-height: .98 !important; }
+        #top > div:last-child { flex-wrap: wrap !important; align-items: flex-start !important; }
+        #top > div:last-child > div { width: 100%; margin: 8px 0 0 !important; }
+
+        #focus > div,
+        #experience > div,
+        #writing > div,
+        #contact > div { padding-left: 20px !important; padding-right: 20px !important; }
+        #focus > div { padding-top: 64px !important; padding-bottom: 72px !important; }
+        #experience > div { padding-top: 64px !important; }
+        #experience > div + div { padding-top: 24px !important; padding-bottom: 72px !important; }
+        #writing > div { padding-top: 64px !important; padding-bottom: 72px !important; }
+        #contact > div { padding-top: 72px !important; padding-bottom: 40px !important; }
+
+        #focus h2,
+        #experience h2,
+        #writing h2,
+        #contact h2 { font-size: 30px !important; }
+        #focus > div > div:nth-of-type(2) { grid-template-columns: 1fr !important; }
+        #focus > div > div:nth-of-type(4) > div { grid-template-columns: 1fr !important; gap: 14px !important; }
+
+        #experience > div:first-child > div:nth-of-type(n+2) {
+          grid-template-columns: 1fr !important;
+          gap: 18px !important;
+        }
+        #experience > div:nth-of-type(2) > div:nth-of-type(2) { grid-template-columns: 1fr !important; gap: 16px !important; }
+        #experience > div:first-child > div:last-child { padding-top: 38px !important; }
+
+        #writing > div > div:last-child > a {
+          grid-template-columns: 1fr !important;
+          gap: 8px !important;
+        }
+
+        #contact > div > a { font-size: clamp(21px, 6.5vw, 28px) !important; overflow-wrap: anywhere; }
+        #contact > div > div:nth-of-type(2) { flex-wrap: wrap !important; gap: 18px 24px !important; }
+        #contact > div > div:last-child { flex-direction: column !important; gap: 10px !important; margin-top: 56px !important; }
+      }
+
+      @media (max-width: 360px) {
+        nav { padding-left: 16px !important; padding-right: 16px !important; }
+        nav button span { width: 34px !important; }
+        #top,
+        #focus > div,
+        #experience > div,
+        #writing > div,
+        #contact > div { padding-left: 16px !important; padding-right: 16px !important; }
+      }
+    </style>`;
+    template = template.replace('</head>', responsiveStyles + '</head>');
+
     // Parse the template and swap the root element. Scripts inserted via
     // DOMParser/replaceWith are inert per spec — re-create each with
     // createElement so they execute, awaiting onload for src scripts to
